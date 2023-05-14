@@ -68,3 +68,4 @@
 #define 	HSI			0
 #define  	HSE_RC		1
 #define		HSE_CRYSTAL	2
+#define     PLL         3

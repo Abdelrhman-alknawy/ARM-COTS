@@ -35,7 +35,7 @@ void RCC_voidInitSysClk(void)
 	SET_BIT(RCC_CFGR,0);
 
 	CLR_BIT(RCC_CFGR,1);
-#else
+#elif RCCCLKSRC==PLL
 
 #error "Invalid RCC CONFIGERED"
 
